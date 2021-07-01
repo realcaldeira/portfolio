@@ -84,6 +84,43 @@ body header div {
     opacity: 1;
   }
 }
+#pincel1 {
+  position: fixed;
+  top: 30%;
+  left: 5%;
+
+  animation: pincel1 7s;
+}
+@keyframes pincel1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#pincel2 {
+  position: fixed;
+  top: 30%;
+  left: 5%;
+
+  animation: pincel2 5s linear;
+}
+@keyframes pincel2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 #pincel p {
   position: fixed;
   color: white;
