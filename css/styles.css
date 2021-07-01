@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logoImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin-left: 5%;
+
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+body header p {
+  color: white;
+}
+
+body header div {
+  display: flex;
+}
+
+#caldeira {
+  font-size: 36px;
+  font-family: 'Revalia', cursive;
+}
+
+#portfólio {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+#portfólio a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+#pincel {
+  position: fixed;
+  top: 30%;
+  left: 5%;
+}
+#pincel p {
+  position: fixed;
+  color: white;
+  font-family: Roboto;
+  font-size: 60px;
+
+  bottom: 32%;
+  left: 12%;
+}
+
+#imgWoman {
+  position: fixed;
+  display: flex;
+  justify-items: flex-end;
+  left: 55%;
+  bottom: 0;
+}
