@@ -89,7 +89,7 @@ body header div {
   top: 30%;
   left: 5%;
 
-  animation: pincel1 7s;
+  animation: pincel1 7s infinite alternate;
 }
 @keyframes pincel1 {
   0% {
@@ -108,7 +108,7 @@ body header div {
   top: 30%;
   left: 5%;
 
-  animation: pincel2 5s linear;
+  animation: pincel2 5s infinite alternate;
 }
 @keyframes pincel2 {
   0% {
@@ -157,7 +157,7 @@ body header div {
   justify-items: flex-end;
 
   bottom: 0;
-  animation: imagem2 7s;
+  animation: imagem2 7s infinite alternate;
 }
 @keyframes imagem2 {
   0% {
@@ -175,7 +175,7 @@ body header div {
   justify-items: flex-end;
 
   bottom: 0;
-  animation: imagem3 10s;
+  animation: imagem3 10s infinite alternate;
 }
 @keyframes imagem3 {
   0% {
@@ -194,7 +194,7 @@ body header div {
   justify-items: flex-end;
 
   bottom: 0;
-  animation: imagem4 12s;
+  animation: imagem4 12s infinite alternate;
 }
 @keyframes imagem4 {
   0% {
