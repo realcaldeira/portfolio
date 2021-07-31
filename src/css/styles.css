@@ -46,6 +46,11 @@ body header div {
     transform: translateY(0);
   }
 }
+@media only screen and (max-width: 1000px) {
+  #caldeira {
+    margin-left: 24%;
+  }
+}
 
 #portfólio {
   margin: 24px 0;
@@ -140,6 +145,12 @@ body header div {
   animation: imagem1 4s;
 }
 
+@media only screen and (max-width: 1000px) {
+  #imgWoman {
+    left: 20%;
+  }
+}
+
 @keyframes imagem1 {
   0% {
     opacity: 0;
@@ -209,9 +220,9 @@ body header div {
 
 @media only screen and (max-width: 1000px) {
   #portfólio {
-    opacity: 0;
+    visibility: hidden;
   }
   #pincel {
-    opacity: 0;
+    visibility: hidden;
   }
 }
