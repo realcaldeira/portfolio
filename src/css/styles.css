@@ -69,8 +69,8 @@ body header div {
   text-decoration: none;
   color: #f6c470;
   font-family: Roboto;
-  font-size: 24px;
-  font-weight: 500;
+
+  font-weight: bold;
 }
 
 #pincel {
